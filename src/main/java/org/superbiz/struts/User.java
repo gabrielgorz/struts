@@ -26,7 +26,7 @@ import java.io.Serializable;
 @Table(name = "USER")
 public class User implements Serializable {
 
-    private long id;
+    private Long id;
     private String firstName;
     private String lastName;
 
